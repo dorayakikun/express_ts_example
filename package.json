@@ -6,8 +6,7 @@
   "types": "dist/server.d.ts",
   "scripts": {
     "build": "tsc",
-    "fmt": "prettier --write '**/*.{js,json,md,ts,tsx}'",
-    "lint": "eslint --fix src/**/*.ts",
+    "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx .",
     "serve": "node dist/server.js",
     "start": "npm run build && npm run serve"
   },
