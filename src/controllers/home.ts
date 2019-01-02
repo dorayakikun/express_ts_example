@@ -1,5 +1,5 @@
-import { Request, Response } from 'express'
+import { Request, Response } from "express";
 
 export let index = (req: Request, res: Response) => {
-  res.send('Home')
-}
+  res.send("Home");
+};

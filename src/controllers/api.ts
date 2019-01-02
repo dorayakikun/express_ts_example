@@ -1,7 +1,7 @@
-'use strict'
+"use strict";
 
-import { Request, Response } from 'express'
+import { Request, Response } from "express";
 
 export const getApi = (req: Request, res: Response) => {
-  res.send('API Examples')
-}
+  res.send("API Examples");
+};
