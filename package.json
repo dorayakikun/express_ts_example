@@ -46,7 +46,7 @@
     "eslint-plugin-standard": "^4.0.0",
     "jest": "^23.6.0",
     "prettier": "^1.14.2",
-    "supertest": "^3.3.0",
+    "supertest": "^3.4.1",
     "ts-jest": "^23.10.5",
     "typescript": "^3.0.3",
     "typescript-eslint-parser": "^21.0.2"
