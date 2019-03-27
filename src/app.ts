@@ -7,6 +7,7 @@ import * as homeController from "./controllers/home";
 
 const app = express();
 
+// eslint-disable-next-line
 app.set("port", process.env.PORT || 3000);
 app.use(compression());
 app.use(bodyParser.json());
