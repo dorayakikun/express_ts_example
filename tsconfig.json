@@ -1,14 +1,11 @@
 {
   "compilerOptions": {
-    "declaration": true,
-    "lib": ["esnext"],
+    "lib": ["esnext", "dom"],
     "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "dist",
     "strict": true,
     "target": "es6",
-    "typeRoots": ["node_modues/@types"],
-    "types": ["jest"]
   },
   "exclude": ["node_modules"],
   "include": ["src/**/*"]
